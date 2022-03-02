@@ -9,7 +9,8 @@ export const Container = styled.div`
 
     th { 
       color: var(--dark-blue);
-      font-weight: 400;
+      font-weight: 600;
+      font-size: 1.15rem;
       padding: 1rem 2rem;
       text-align: left;
       line-height: 1.5rem;
@@ -21,7 +22,6 @@ export const Container = styled.div`
       background: #FFF;
       color: var(--dark-blue);
       border-radius: 0.25rem;
-      font-weight: 500;
       
       &:first-child {
         color: var(--dark-blue);
