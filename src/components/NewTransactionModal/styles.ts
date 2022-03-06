@@ -86,12 +86,6 @@ export const RadioBox = styled.button<RadioBoxProps>`
   align-items: center;
   justify-content: center;
 
-  transition: border 0.2s;
-
-  &:hover {
-    border: 2px solid ${darken(0.1, '#d7d7d7')};
-  }
-
   img {
     width: 22px;
     height: 22px;
